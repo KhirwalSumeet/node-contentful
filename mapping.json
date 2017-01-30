@@ -1,0 +1,100 @@
+{
+    "tableColumns": [
+        {
+            "column_name": "id",
+            "data_type": "integer",
+            "column_default": "nextval('item_tab_id_seq'::regclass)",
+            "is_nullable": "NO"
+        },
+        {
+            "column_name": "contenttitle",
+            "data_type": "text",
+            "column_default": null,
+            "is_nullable": "YES"
+        },
+        {
+            "column_name": "contentbody",
+            "data_type": "text",
+            "column_default": null,
+            "is_nullable": "YES"
+        },
+        {
+            "column_name": "externalid",
+            "data_type": "text",
+            "column_default": null,
+            "is_nullable": "YES"
+        },
+        {
+            "column_name": "contentfulid",
+            "data_type": "text",
+            "column_default": null,
+            "is_nullable": "YES"
+        },
+        {
+            "column_name": "contentversion",
+            "data_type": "text",
+            "column_default": null,
+            "is_nullable": "YES"
+        },
+        {
+            "column_name": "contentstatus",
+            "data_type": "text",
+            "column_default": null,
+            "is_nullable": "YES"
+        },
+        {
+            "column_name": "contentlang",
+            "data_type": "text",
+            "column_default": null,
+            "is_nullable": "YES"
+        }
+    ],
+    "mapping": {
+        "contenttitle": "contentTitle",
+        "contentbody": "contentBody",
+        "externalid": "externalId",
+        "id": "commonId"
+    },
+    "contentfulFields": [
+        {
+            "id": "contentTitle",
+            "name": "Content Title",
+            "type": "Symbol",
+            "localized": true,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false
+        },
+        {
+            "id": "contentBody",
+            "name": "Content Body",
+            "type": "Text",
+            "localized": true,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false
+        },
+        {
+            "id": "externalId",
+            "name": "External Id",
+            "type": "Symbol",
+            "localized": true,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false
+        },
+        {
+            "id": "commonId",
+            "name": "Common Id",
+            "type": "Text",
+            "localized": true,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false
+        }
+    ]
+}
