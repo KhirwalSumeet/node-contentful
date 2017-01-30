@@ -1,11 +1,4 @@
-/*
- * Copyright (C) 2016 TopCoder Inc., All Rights Reserved.
- */
-/**
- * This module contains the winston logger configuration.
- * @author TCSCODER
- * @version 1.1
- */
+
 'use strict';
 
 const winston = require('winston');

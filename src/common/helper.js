@@ -1,11 +1,4 @@
-/*
- * Copyright (C) 2016 TopCoder Inc., All Rights Reserved.
- */
-/**
- * This module contains the helper functions.
- * @author TCSCODER
- * @version 1.0
- */
+
 'use strict';
 
 const path = require('path');
